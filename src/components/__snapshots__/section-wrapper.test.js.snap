@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionWrapper - general should match Snapshot 1`] = `
+<section
+  className="test"
+>
+  <Container
+    fluid={false}
+  >
+    <div>
+      test
+    </div>
+  </Container>
+</section>
+`;

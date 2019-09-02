@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerProfileView - general should match Snapshot 1`] = `
+<section
+  className="player-sction"
+>
+  <Container
+    fluid={false}
+  >
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col
+        key="attack"
+        lg="3"
+        md="6"
+      >
+        <PlayerStatsView
+          stats={
+            Object {
+              "aerialDuelsWon": "40",
+              "assists": "50",
+              "blocks": "6",
+              "clearances": "99",
+              "duelsWon": "301",
+              "foulsConceded": "55",
+              "foulsWon": "90",
+              "gamesPlayed": "55",
+              "goals": "3",
+              "goalsFromInsideBox": "2",
+              "goalsFromOutsideBox": "1",
+              "headedGoals": "1",
+              "interceptions": "50",
+              "leftFootGoals": "0",
+              "minutesPerGoal": "358.0",
+              "minutesPlayed": "4800",
+              "otherGoals": "1",
+              "passingAccuracy": "70.2",
+              "redCards": "9",
+              "rightFootGoals": "3",
+              "shotsOnTarget": "5",
+              "starts": "15",
+              "substitutionOff": "70",
+              "substitutionOn": "6",
+              "successfulCrosses": "10",
+              "tacklesWon": "30",
+              "totalCrosses": "15",
+              "totalPasses": "8562",
+              "totalShots": "11",
+              "totalTackles": "11",
+              "yellowCards": "41",
+            }
+          }
+          statsToShow={
+            Array [
+              "minutesPerGoal",
+              "goals",
+              "assists",
+              "shotsOnTarget",
+              "totalShots",
+            ]
+          }
+          title="attack"
+        />
+      </Col>
+      <Col
+        key="defense"
+        lg="3"
+        md="6"
+      >
+        <PlayerStatsView
+          stats={
+            Object {
+              "aerialDuelsWon": "40",
+              "assists": "50",
+              "blocks": "6",
+              "clearances": "99",
+              "duelsWon": "301",
+              "foulsConceded": "55",
+              "foulsWon": "90",
+              "gamesPlayed": "55",
+              "goals": "3",
+              "goalsFromInsideBox": "2",
+              "goalsFromOutsideBox": "1",
+              "headedGoals": "1",
+              "interceptions": "50",
+              "leftFootGoals": "0",
+              "minutesPerGoal": "358.0",
+              "minutesPlayed": "4800",
+              "otherGoals": "1",
+              "passingAccuracy": "70.2",
+              "redCards": "9",
+              "rightFootGoals": "3",
+              "shotsOnTarget": "5",
+              "starts": "15",
+              "substitutionOff": "70",
+              "substitutionOn": "6",
+              "successfulCrosses": "10",
+              "tacklesWon": "30",
+              "totalCrosses": "15",
+              "totalPasses": "8562",
+              "totalShots": "11",
+              "totalTackles": "11",
+              "yellowCards": "41",
+            }
+          }
+          statsToShow={
+            Array [
+              "blocks",
+              "totalTackles",
+              "tacklesWon",
+              "interceptions",
+              "clearances",
+            ]
+          }
+          title="defense"
+        />
+      </Col>
+      <Col
+        key="passes"
+        lg="3"
+        md="6"
+      >
+        <PlayerStatsView
+          stats={
+            Object {
+              "aerialDuelsWon": "40",
+              "assists": "50",
+              "blocks": "6",
+              "clearances": "99",
+              "duelsWon": "301",
+              "foulsConceded": "55",
+              "foulsWon": "90",
+              "gamesPlayed": "55",
+              "goals": "3",
+              "goalsFromInsideBox": "2",
+              "goalsFromOutsideBox": "1",
+              "headedGoals": "1",
+              "interceptions": "50",
+              "leftFootGoals": "0",
+              "minutesPerGoal": "358.0",
+              "minutesPlayed": "4800",
+              "otherGoals": "1",
+              "passingAccuracy": "70.2",
+              "redCards": "9",
+              "rightFootGoals": "3",
+              "shotsOnTarget": "5",
+              "starts": "15",
+              "substitutionOff": "70",
+              "substitutionOn": "6",
+              "successfulCrosses": "10",
+              "tacklesWon": "30",
+              "totalCrosses": "15",
+              "totalPasses": "8562",
+              "totalShots": "11",
+              "totalTackles": "11",
+              "yellowCards": "41",
+            }
+          }
+          statsToShow={
+            Array [
+              "totalPasses",
+              "totalCrosses",
+              "passingAccuracy",
+              "successfulCrosses",
+            ]
+          }
+          title="passes"
+        />
+      </Col>
+      <Col
+        key="cards"
+        lg="3"
+        md="6"
+      >
+        <PlayerStatsView
+          stats={
+            Object {
+              "aerialDuelsWon": "40",
+              "assists": "50",
+              "blocks": "6",
+              "clearances": "99",
+              "duelsWon": "301",
+              "foulsConceded": "55",
+              "foulsWon": "90",
+              "gamesPlayed": "55",
+              "goals": "3",
+              "goalsFromInsideBox": "2",
+              "goalsFromOutsideBox": "1",
+              "headedGoals": "1",
+              "interceptions": "50",
+              "leftFootGoals": "0",
+              "minutesPerGoal": "358.0",
+              "minutesPlayed": "4800",
+              "otherGoals": "1",
+              "passingAccuracy": "70.2",
+              "redCards": "9",
+              "rightFootGoals": "3",
+              "shotsOnTarget": "5",
+              "starts": "15",
+              "substitutionOff": "70",
+              "substitutionOn": "6",
+              "successfulCrosses": "10",
+              "tacklesWon": "30",
+              "totalCrosses": "15",
+              "totalPasses": "8562",
+              "totalShots": "11",
+              "totalTackles": "11",
+              "yellowCards": "41",
+            }
+          }
+          statsToShow={
+            Array [
+              "successfulCrosses",
+              "yellowCards",
+              "foulsConceded",
+            ]
+          }
+          title="cards"
+        />
+      </Col>
+    </ForwardRef>
+  </Container>
+</section>
+`;

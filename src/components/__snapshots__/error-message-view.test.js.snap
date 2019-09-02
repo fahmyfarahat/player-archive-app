@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessageView - general should match Snapshot 1`] = `
+<SectionWrapper>
+  <h1
+    className="error"
+  >
+    Player is not available.
+  </h1>
+</SectionWrapper>
+`;

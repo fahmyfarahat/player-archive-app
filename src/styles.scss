@@ -1,0 +1,52 @@
+.searchInput-section {
+  background: #272526;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.error-message {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 3rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.player-sction {
+  margin-top: 2rem;
+}
+
+.player-stats {
+  background: #f4f4f4;
+  margin-bottom: 1rem;
+  
+  &_head {
+    background: #eee;
+    height: 3rem;
+    line-height: 3rem;
+    padding: .5rem .7rem;
+    text-transform: capitalize;
+  }
+  
+  &_body {
+    padding: 20px 13px;
+  }
+    
+  &_row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #d0d0d0;
+    margin-top: .5rem;
+
+    &:first-of-type {
+    margin-top: 0;
+    }
+    
+    &:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+}

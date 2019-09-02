@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerStatsView - general should match Snapshot 1`] = `
+<div
+  className="player-stats"
+>
+  <div
+    className="player-stats_head"
+  >
+    <h3>
+      title
+    </h3>
+  </div>
+  <div
+    className="player-stats_body"
+  >
+    <div
+      className="player-stats_row"
+      key="blocks"
+    >
+      <span
+        className="text-capitalize"
+      >
+        blocks
+      </span>
+      <span
+        className="font-weight-bold"
+      >
+        blocks
+      </span>
+    </div>
+  </div>
+</div>
+`;

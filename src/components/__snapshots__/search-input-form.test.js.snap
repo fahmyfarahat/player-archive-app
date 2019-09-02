@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInputForm - general should match Snapshot 1`] = `
+<SectionWrapper
+  className="searchInput-section"
+>
+  <Form
+    inline={false}
+    onSubmit={[Function]}
+  >
+    <InputGroup
+      className="mb-3"
+    >
+      <FormControl
+        name="input"
+        onChange={[Function]}
+        placeholder="text.."
+        size="lg"
+        type="text"
+        value=""
+      />
+      <InputGroupAppend>
+        <Button
+          active={false}
+          disabled={false}
+          size="lg"
+          type="submit"
+          variant="primary"
+        >
+          go
+        </Button>
+      </InputGroupAppend>
+    </InputGroup>
+  </Form>
+</SectionWrapper>
+`;
